@@ -1,2 +1,4 @@
 # Room-for-Negotiation----Working-with-the-King-County-Dataset
 This is my first EDA project. It was carried out in context of the Neue-Fische-Bootcamp for Data Science.
+
+Our task was to find a suitable business case for the available data and I chose to test a pilot version for a system/tool, which can tell potential housebuyers or -sellers wether a the price of a certain building is relatively adeqaute under given circumstances. I did a bit of data cleansing, EDA and constructed a final multivariate linear regression with predictors being information that is likely accessable for future users. With some reasonable restrictions, it was possible to get a mean absolute percentage error of 16% (MAPE was a specification of our exercise), so our system would be able to give users a range of +/- 8% around a certain value -- and thus some room for negotiation!
